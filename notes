@@ -36,4 +36,25 @@ tables headers and individual rows are then added one at a time
 
 FORMS
 
+Forms are inputs where the user can type things in, choose from a selection, check a box, etc. Basically interact in some way
+<form> and </form> tags are used to define what will go into our form
+<label> & </label> designate the text for the form
+<input type="> (no closing tag) tells what type of form it will be based on what attribute we assign (text, submit button, color picker, etc.)
+<textarea> creates a bigger box that the user can type into and make bigger or smaller with their cursor
 
+example: 
+
+    <form action="mailto:fakeemail@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+    
+    
+the form action designates what submitting the form will do (in this case it will take the values in the name, email, and message boxes and try to email them to the fakeemail@gmail.com. But it could also be something like redirecting to another page.
+enctype tells the form that the text is normal text so the corresponding email doesn't come up with any weird characters
+when I have a button like a submit button, take out the (value"") section, because it's a button and has no value
