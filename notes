@@ -1,0 +1,39 @@
+TABLES
+
+When creating tables, the general structure will look like this:
+
+  <table>
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>2018 - 2021</td>
+      <td>Arrow Electronics</td>
+    </tr>
+      <td>2021 - 2022</td>
+      <td>Zayo Group</td>
+    </tbody>
+    <tfoot>
+      
+    </tfoot>
+
+  </table>
+
+it starts with <table> which designates that the data code & data will go there
+tables headers and individual rows are then added one at a time
+<thead> designating that this row will be for the table's headers
+<tr> designating a table row
+<th> saying these are the individual table headers, in order
+<tbody> designating the contents of the table
+<tr> again for individual table rows
+<td> is for table data, to fill out the contents of the tables
+<tfoot> is for the table footers
+
+
+FORMS
+
+
